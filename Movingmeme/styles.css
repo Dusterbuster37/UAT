@@ -1,0 +1,41 @@
+/*Styles */
+
+body {
+    background-image: url('matrixjpg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#msg { color: red;} /* Made message readable on page */
+
+#meme-container {
+    position: relative;
+    margin: 50px;
+}
+
+#meme {
+    width: 300px;
+    height: 300px;
+    transition: transform 1s ease-in-out;
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #c01010;
+    color: #29e222;
+    border: none;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
