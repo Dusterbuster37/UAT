@@ -1,0 +1,58 @@
+/* style css Arthur cathcart */
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff; 
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+/* Set a background */
+body {
+    background-image: url('night.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+}
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff; 
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+/* Style the button */
+button {
+    background-color: #4d14b6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px; /* width */
+    height: 40px; /* height */
+    text-align: center;
+}
+
+/* Style the container for the buttons */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
